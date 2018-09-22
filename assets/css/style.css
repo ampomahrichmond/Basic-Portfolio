@@ -1,0 +1,159 @@
+/*
+Each of these CSS elements is associated with an HTML Element, Class, or ID.
+Flip between this CSS file and the HTML to see how things line up.
+Experiment with deleting lines of code from the CSS to see how it affects the web page when you refresh in the browser.
+*/
+
+body {
+    /* Box-model */
+    padding: 0;
+  
+    /* Positioning */
+    margin: 0;
+    font-family:  Arial, Helvetica, sans-serif;
+  
+    /* Typography */
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    width: 960px;
+    line-height: 150%;
+    color: #777;
+  
+    /* Visual */
+    background: #F2f2f2;
+  }
+  
+  header {
+    background:WHITE;
+  }
+  
+  h1 {
+    /* Box-model */
+    padding: 20px 0;
+  
+    /* Positioning */
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+  
+    /* Typography */
+    color:#4aaaa5;
+    text-align:left;
+  
+    /* Visual */
+    background: #F2f2f2;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+  
+  a {
+    color: #d21034;
+  }
+  p{color:#080808;
+    background:#FFFFFF;
+}
+  
+  .container {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 0 auto;
+  }
+  
+  #main-bio,
+  #contact-info,
+  #bio-image {
+    float: left;
+  }
+  
+  #main-bio {
+    width: 70%;
+  }
+  
+  #contact-info {
+    width: 30%;
+  }
+  
+  #bio-image {
+    /* Box-model */
+    width: 200px;
+    height: 200px;
+  
+    /* Positioning */
+  
+    margin-right: 20px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size :20px; 
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  .topnav a {
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666666;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #666666;
+}
